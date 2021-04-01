@@ -1,0 +1,273 @@
+*{
+    list-style: none;
+    font-family: 'Roboto', sans-serif; 
+
+}
+/* 
+
+div {
+
+
+     font-family: 'Roboto', sans-serif; 
+
+    font: italic 600 16px;
+    text-align: center;
+    font-style: normal;
+letter-spacing: 1px;    
+word-spacing: 3px;
+text-transform: uppercase;
+text-decoration: line-through;
+}
+ul {
+list-style: none;
+list-style-position: outside;
+
+}
+
+.qwerty, #ideses{
+
+    color: red ;
+}
+
+#ideses{
+    color: royalblue;
+}
+
+[alt="img"]
+{
+width: 500px;
+
+}
+
+[class]{
+
+}
+img[src$=".jpg"]
+{
+    
+}
+ul>li{
+
+    color:royalblue;
+}
+ul li {
+    color: purple;
+}
+
+ul+a{
+    color: salmon;
+}
+
+span{
+    color: salmon;
+}
+div span {
+    color: gray;
+}
+div>span{
+    color: green;
+
+}
+
+.small-box span + ul #list .about {
+
+}
+
+
+
+li.list-item a.list-item-link{
+
+}
+
+.list-item-link:hover{
+    font-size: 25px;
+}
+
+span::before{
+content: "\00AE";
+}
+
+span::after{
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: grey;
+}
+
+input[type="checkbox"]{
+    display:none;
+
+
+}
+
+input[type="checkbox"] + label::before{
+    content: "";
+    display:  inline-block;
+   
+    width: 10px;
+    height: 10px;
+    border: 1xp solid green;
+}
+
+input[type="checkbox"]:checked + label::before{
+background: greenyellow;} */
+ul{
+    font-weight: 800;
+    font-style: normal;
+   
+}
+ul > li:first-child{
+
+    color: rgb(44, 165, 139);
+    size: 14px;
+}
+ul > li:nth-child(1),li::nth-child(3),li::nth-child(11){
+font-size: 14px;}
+ul >li:nth-child(3n+2){
+text-decoration: underline;
+}
+
+ul >li:nth-child(4){
+    padding-left: 15px;
+}
+
+ul >li:nth-child(3n+6){
+text-transform: uppercase;
+
+border: 5px solid dotted purple;
+}
+
+ul >li:last-child{
+    border-style: double ;
+}
+ /* div {
+    width: calc(100vw - 90px);
+    height: 100vh;
+    padding: 10px 15px;
+    border:2px solid red;
+    margin: 12px 45px 13px;
+    background-color: rgb(44, 165, 139);
+    box-sizing: border-box;
+
+}  */
+body{
+    width: 100;
+}
+/* .cycle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    background-color: lawngreen;
+    position: fixed;
+    z-index:1;
+}
+
+.square{
+    width: 300px;
+    height: 300px;
+    background-color: lightseagreen;
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+    padding: 0 auto;
+    z-index: 1;
+}
+
+.square_in{
+    width: 50px;
+    height: 50px;
+    right: 0;
+    top: 0;
+    background-color: lawngreen;
+    position: absolute;
+    
+    
+}
+ .round{
+     border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 252, 231);
+    position: relative;
+    top: calc(50% - 25px);
+    left: calc(50% - 25px);
+ }
+ .square1{
+
+    width: 300px;
+    height: 300px;
+    background-color: rgb(72, 114, 112);
+    position: absolute;
+    right: 45%;
+    
+ }
+ .style_img{
+     width: 77%;
+     z-index: 1;
+     position: absolute;
+     bottom: 0px;
+ }
+ #style{
+     position: absolute;
+     right: -20px;
+     bottom: 0px;
+     z-index: 7; */
+
+ /* } */
+*{
+    box-sizing: border-box;
+}
+ /* .flex{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ align-items: center;
+    
+
+ }
+ div>div{
+     min-width: 150px;
+     min-height: 150px;
+     background-color: red;
+     border: 10px solid white ;
+     display: flex;
+     justify-content: center;
+     align-items:center;
+     color: white;
+     width: 25%;
+ } */
+
+
+ .flex{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    width: 300px;
+height: 300px;
+
+
+box-shadow: 20px 15px 10px 5px coral ;}
+button{
+
+    width: 80px;
+    height: 40px;
+    border-radius: 0 15px 25px 50px;
+}
+button:hover{
+    box-shadow: 5px 10px;
+    color: rgb(135, 160, 177);
+    background-color: cornflowerblue;
+
+}
+
+div{
+    display: block;
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+    background: url(/images/index.jpg);
+    background-size: cover;
+    background-position: -15px;;
+}
